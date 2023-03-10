@@ -1,6 +1,7 @@
-x = eval(input("Enter first number"))
-y = eval(input("Enter second number"))
+x = int(input("Enter first number"))
+y = int(input("Enter second number"))
 
-function sum(x, y){
+def sum():
     return x+y
-}
+
+print(sum())
